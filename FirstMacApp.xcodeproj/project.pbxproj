@@ -11,6 +11,15 @@
 		9F5B667C234FA0EE000768BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B667B234FA0EE000768BE /* ViewController.swift */; };
 		9F5B667E234FA0F4000768BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B667D234FA0F4000768BE /* Assets.xcassets */; };
 		9F5B6681234FA0F4000768BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F5B667F234FA0F4000768BE /* Main.storyboard */; };
+		9F5B668A234FA636000768BE /* SourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B6689234FA636000768BE /* SourceViewController.swift */; };
+		9F5B668D234FA6FF000768BE /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5B668B234FA6FF000768BE /* DetailsViewController.swift */; };
+		9F809BED23517563000DCFEF /* appLogo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F809BE623517563000DCFEF /* appLogo.jpeg */; };
+		9F809BEE23517563000DCFEF /* appLogo2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9F809BE723517563000DCFEF /* appLogo2.jpeg */; };
+		9F809BEF23517563000DCFEF /* appLogo1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F809BE823517563000DCFEF /* appLogo1.jpg */; };
+		9F809BF023517563000DCFEF /* appLogo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9F809BE923517563000DCFEF /* appLogo2.jpg */; };
+		9F809BF123517563000DCFEF /* appLogo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F809BEA23517563000DCFEF /* appLogo3.png */; };
+		9F809BF223517563000DCFEF /* appLogo4.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F809BEB23517563000DCFEF /* appLogo4.png */; };
+		9F809BF323517563000DCFEF /* appLogo5.png in Resources */ = {isa = PBXBuildFile; fileRef = 9F809BEC23517563000DCFEF /* appLogo5.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +30,15 @@
 		9F5B6680234FA0F4000768BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F5B6682234FA0F4000768BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F5B6683234FA0F4000768BE /* FirstMacApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FirstMacApp.entitlements; sourceTree = "<group>"; };
+		9F5B6689234FA636000768BE /* SourceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceViewController.swift; sourceTree = "<group>"; };
+		9F5B668B234FA6FF000768BE /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9F809BE623517563000DCFEF /* appLogo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appLogo.jpeg; sourceTree = "<group>"; };
+		9F809BE723517563000DCFEF /* appLogo2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appLogo2.jpeg; sourceTree = "<group>"; };
+		9F809BE823517563000DCFEF /* appLogo1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appLogo1.jpg; sourceTree = "<group>"; };
+		9F809BE923517563000DCFEF /* appLogo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = appLogo2.jpg; sourceTree = "<group>"; };
+		9F809BEA23517563000DCFEF /* appLogo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appLogo3.png; sourceTree = "<group>"; };
+		9F809BEB23517563000DCFEF /* appLogo4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appLogo4.png; sourceTree = "<group>"; };
+		9F809BEC23517563000DCFEF /* appLogo5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appLogo5.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +77,25 @@
 				9F5B667F234FA0F4000768BE /* Main.storyboard */,
 				9F5B6682234FA0F4000768BE /* Info.plist */,
 				9F5B6683234FA0F4000768BE /* FirstMacApp.entitlements */,
+				9F5B6689234FA636000768BE /* SourceViewController.swift */,
+				9F5B668B234FA6FF000768BE /* DetailsViewController.swift */,
+				9F809BE523517563000DCFEF /* Product */,
 			);
 			path = FirstMacApp;
+			sourceTree = "<group>";
+		};
+		9F809BE523517563000DCFEF /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				9F809BE623517563000DCFEF /* appLogo.jpeg */,
+				9F809BE723517563000DCFEF /* appLogo2.jpeg */,
+				9F809BE823517563000DCFEF /* appLogo1.jpg */,
+				9F809BE923517563000DCFEF /* appLogo2.jpg */,
+				9F809BEA23517563000DCFEF /* appLogo3.png */,
+				9F809BEB23517563000DCFEF /* appLogo4.png */,
+				9F809BEC23517563000DCFEF /* appLogo5.png */,
+			);
+			path = Product;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,8 +156,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F809BEF23517563000DCFEF /* appLogo1.jpg in Resources */,
+				9F809BF023517563000DCFEF /* appLogo2.jpg in Resources */,
 				9F5B667E234FA0F4000768BE /* Assets.xcassets in Resources */,
+				9F809BEE23517563000DCFEF /* appLogo2.jpeg in Resources */,
 				9F5B6681234FA0F4000768BE /* Main.storyboard in Resources */,
+				9F809BF223517563000DCFEF /* appLogo4.png in Resources */,
+				9F809BF123517563000DCFEF /* appLogo3.png in Resources */,
+				9F809BED23517563000DCFEF /* appLogo.jpeg in Resources */,
+				9F809BF323517563000DCFEF /* appLogo5.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,6 +177,8 @@
 			files = (
 				9F5B667C234FA0EE000768BE /* ViewController.swift in Sources */,
 				9F5B667A234FA0EE000768BE /* AppDelegate.swift in Sources */,
+				9F5B668A234FA636000768BE /* SourceViewController.swift in Sources */,
+				9F5B668D234FA6FF000768BE /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
